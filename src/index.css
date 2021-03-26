@@ -1,0 +1,24 @@
+:root {
+  --primary: #C1FBA4;
+  --secondary: #7BF1A8;
+  --third: #FFEF9F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 1.6em;
+  min-height: 100vh;
+
+  background-image: linear-gradient(to bottom right,var(--primary),var(--secondary));
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,28 @@
+$warning-color: #fa8c16;
+$primary-color: #40a9ff;
+$text-color: black;
+
+.fn-btn {
+    color: $text-color;
+    &.primary {
+        color: $primary-color;
+        &:active {
+            background-color: rgba($color: $primary-color, $alpha: .1);
+        }   
+        &:hover {
+            border-color: $primary-color;
+            
+        }
+    }
+
+    &.warning {
+        color: $warning-color;
+        &:active {
+            background-color: rgba($color: $warning-color, $alpha: .1);
+        }
+        &:hover {
+            
+            border-color: $warning-color;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+*[class*="ant-"] {
+    font-size: 1em;
+}
+
+.input-player {
+    .ant-input-group {
+        display: flex;
+        font-size: 1.125em;
+        .ant-input-affix-wrapper {
+            padding: .25em .5em;
+        }
+        .ant-btn {
+            height: 100%;
+        }
+    }    
+}
